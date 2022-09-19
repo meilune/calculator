@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/jbs6usg.css");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -8,6 +9,10 @@ body {
   min-height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(#63a69a), to(#3d665f));
   background: linear-gradient(#63a69a, #3d665f);
+  font-family: automate,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  overflow: hidden;
 }
 
 .container {
@@ -21,14 +26,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .container .calculator {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   width: 400px;
   height: 500px;
   background: #fff;
@@ -57,6 +59,6 @@ body {
   border-radius: 20px 20px 0 0;
   color: #fff;
   padding: 2rem;
-  font-size: 38px;
+  font-size: 48px;
 }
 /*# sourceMappingURL=style.css.map */
