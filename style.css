@@ -1,0 +1,62 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#63a69a), to(#3d665f));
+  background: linear-gradient(#63a69a, #3d665f);
+}
+
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 100vh;
+  height: 100vh;
+}
+
+.container .calculator {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 400px;
+  height: 500px;
+  background: #fff;
+  border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 181, 167, 0.5)), to(rgba(242, 129, 119, 0.5))), url("/noise.svg");
+  background: linear-gradient(rgba(242, 181, 167, 0.5), rgba(242, 129, 119, 0.5)), url("/noise.svg");
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.container .calculator header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  padding: 2rem;
+  font-size: 38px;
+}
+/*# sourceMappingURL=style.css.map */
