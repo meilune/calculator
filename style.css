@@ -61,4 +61,8 @@ body {
   padding: 2rem;
   font-size: 48px;
 }
+
+.container .calculator .calc-body {
+  padding: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
