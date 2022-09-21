@@ -72,7 +72,11 @@ body {
                     color: $peach;
                 }
                 &:active {
+                    transform: translatey(1px);
                     box-shadow: rgba(64, 63, 63, 0.2) 2px 2px 6px 0px inset, rgba(45, 44, 44, 0.1) -3px -3px 4px 1px inset;
+                }
+                &:focus {
+                    outline: none;
                 }
             }
             .operator {
@@ -116,3 +120,11 @@ body {
     background: $pastel-pink;
     border-radius: 10px;
   }
+// Media query
+@media only screen and (max-width: 600px) {
+.container {
+    .calculator {
+        width: 95%;
+    }
+}
+}

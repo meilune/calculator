@@ -90,8 +90,14 @@ body {
 }
 
 .container .calculator .calc-body button:active {
+  -webkit-transform: translatey(1px);
+          transform: translatey(1px);
   -webkit-box-shadow: rgba(64, 63, 63, 0.2) 2px 2px 6px 0px inset, rgba(45, 44, 44, 0.1) -3px -3px 4px 1px inset;
           box-shadow: rgba(64, 63, 63, 0.2) 2px 2px 6px 0px inset, rgba(45, 44, 44, 0.1) -3px -3px 4px 1px inset;
+}
+
+.container .calculator .calc-body button:focus {
+  outline: none;
 }
 
 .container .calculator .calc-body .operator {
@@ -134,5 +140,11 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #f28da8;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container .calculator {
+    width: 95%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
