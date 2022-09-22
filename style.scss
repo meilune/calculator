@@ -49,9 +49,10 @@ body {
             border-radius: 20px 20px 0 0;
             color: $white;
             padding: 2rem;
-            font-size: 48px;
-            .numbers {
+            h1 {
                 overflow-x: auto;
+                font-size: 48px;
+                margin: 0 0;
             }
         }
         .calc-body {

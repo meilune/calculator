@@ -57,11 +57,12 @@ body {
   border-radius: 20px 20px 0 0;
   color: #fff;
   padding: 2rem;
-  font-size: 48px;
 }
 
-.container .calculator header .numbers {
+.container .calculator header h1 {
   overflow-x: auto;
+  font-size: 48px;
+  margin: 0 0;
 }
 
 .container .calculator .calc-body {
