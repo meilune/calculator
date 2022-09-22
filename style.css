@@ -34,8 +34,8 @@ body {
   width: 400px;
   background: #fff;
   border-radius: 20px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 181, 167, 0.5)), to(rgba(242, 129, 119, 0.5))), url("/noise.svg");
-  background: linear-gradient(rgba(242, 181, 167, 0.5), rgba(242, 129, 119, 0.5)), url("/noise.svg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(242, 181, 167, 0.5)), to(rgba(242, 129, 119, 0.5))), url("https://meilune.github.io/calculator/noise.svg");
+  background: linear-gradient(rgba(242, 181, 167, 0.5), rgba(242, 129, 119, 0.5)), url("https://meilune.github.io/calculator/noise.svg");
   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
           box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
